@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Validate</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <form method="post" novalidate>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="country">country</label>
+        <input type="text" id="country" name="country" required>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" minlength="14"required>
+        <label for="password confirm">confirm pwd</label>
+        <input type="password" id="passwordconfirm" name="password confirm" minlength="14"required>
+<input type="submit"value="Submit">
+    </form>
+
+</body>
+<script src="script.js"></script>
+</html>
